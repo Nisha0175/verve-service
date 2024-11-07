@@ -1,0 +1,529 @@
+2024-11-07T11:29:04.654+05:30  INFO 60481 --- [verve_assignment] [restartedMain] c.v.v.VerveAssignmentApplication         : Starting VerveAssignmentApplication using Java 17.0.13 with PID 60481 (/Users/nishasaini/Developer/JavaWork/verve_assignment/target/classes started by nishasaini in /Users/nishasaini/Developer/JavaWork/verve_assignment)
+2024-11-07T11:29:04.655+05:30  INFO 60481 --- [verve_assignment] [restartedMain] c.v.v.VerveAssignmentApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-11-07T11:29:04.696+05:30  INFO 60481 --- [verve_assignment] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-07T11:29:04.697+05:30  INFO 60481 --- [verve_assignment] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-07T11:29:05.256+05:30  INFO 60481 --- [verve_assignment] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-11-07T11:29:05.275+05:30  INFO 60481 --- [verve_assignment] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-07T11:29:05.276+05:30  INFO 60481 --- [verve_assignment] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-07T11:29:05.305+05:30  INFO 60481 --- [verve_assignment] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-07T11:29:05.306+05:30  INFO 60481 --- [verve_assignment] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 608 ms
+2024-11-07T11:29:05.774+05:30  INFO 60481 --- [verve_assignment] [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2024-11-07T11:29:05.779+05:30  INFO 60481 --- [verve_assignment] [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2024-11-07T11:29:05.780+05:30  INFO 60481 --- [verve_assignment] [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.2 created.
+2024-11-07T11:29:05.780+05:30  INFO 60481 --- [verve_assignment] [restartedMain] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2024-11-07T11:29:05.780+05:30  INFO 60481 --- [verve_assignment] [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2024-11-07T11:29:05.781+05:30  INFO 60481 --- [verve_assignment] [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2024-11-07T11:29:05.781+05:30  INFO 60481 --- [verve_assignment] [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.2
+2024-11-07T11:29:05.781+05:30  INFO 60481 --- [verve_assignment] [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@56941ec2
+2024-11-07T11:29:05.803+05:30  INFO 60481 --- [verve_assignment] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-11-07T11:29:05.807+05:30  INFO 60481 --- [verve_assignment] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2024-11-07T11:29:05.837+05:30  INFO 60481 --- [verve_assignment] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-11-07T11:29:05.838+05:30  INFO 60481 --- [verve_assignment] [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2024-11-07T11:29:05.838+05:30  INFO 60481 --- [verve_assignment] [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2024-11-07T11:29:05.854+05:30  INFO 60481 --- [verve_assignment] [restartedMain] c.v.v.VerveAssignmentApplication         : Started VerveAssignmentApplication in 1.389 seconds (process running for 3.283)
+2024-11-07T11:29:05.857+05:30  INFO 60481 --- [verve_assignment] [scheduling-1] c.v.v.scheduler.RequestScheduler         : Unique request count in the last minute: 0
+2024-11-07T11:29:39.423+05:30  INFO 60481 --- [verve_assignment] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-07T11:29:39.424+05:30  INFO 60481 --- [verve_assignment] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-11-07T11:29:39.427+05:30  INFO 60481 --- [verve_assignment] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2024-11-07T11:29:39.458+05:30  WARN 60481 --- [verve_assignment] [http-nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'id' for method parameter type int is not present]
+2024-11-07T11:30:05.860+05:30  INFO 60481 --- [verve_assignment] [scheduling-1] c.v.v.scheduler.RequestScheduler         : Unique request count in the last minute: 0
+2024-11-07T11:30:55.375+05:30  WARN 60481 --- [verve_assignment] [http-nio-8080-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'id' for method parameter type int is not present]
+2024-11-07T11:31:05.857+05:30  INFO 60481 --- [verve_assignment] [scheduling-1] c.v.v.scheduler.RequestScheduler         : Unique request count in the last minute: 0
+2024-11-07T11:32:05.861+05:30  INFO 60481 --- [verve_assignment] [scheduling-1] c.v.v.scheduler.RequestScheduler         : Unique request count in the last minute: 0
+2024-11-07T11:32:33.028+05:30 ERROR 60481 --- [verve_assignment] [http-nio-8080-exec-5] i.n.r.d.DnsServerAddressStreamProviders  : Unable to load io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'. Use DEBUG level to see the full stack: java.lang.UnsatisfiedLinkError: failed to load the required native library
+2024-11-07T11:32:33.772+05:30  INFO 60481 --- [verve_assignment] [reactor-http-nio-2] c.v.v.service.RequestService             : External endpoint response status: 200 OK
+2024-11-07T11:32:38.752+05:30  INFO 60481 --- [verve_assignment] [reactor-http-nio-2] c.v.v.service.RequestService             : External endpoint response status: 200 OK
+2024-11-07T11:33:05.859+05:30  INFO 60481 --- [verve_assignment] [scheduling-1] c.v.v.scheduler.RequestScheduler         : Unique request count in the last minute: 1
+2024-11-07T11:33:43.505+05:30  INFO 60481 --- [verve_assignment] [reactor-http-nio-2] c.v.v.service.RequestService             : External endpoint response status: 200 OK
+2024-11-07T11:34:05.859+05:30  INFO 60481 --- [verve_assignment] [scheduling-1] c.v.v.scheduler.RequestScheduler         : Unique request count in the last minute: 1
+2024-11-07T11:35:05.860+05:30  INFO 60481 --- [verve_assignment] [scheduling-1] c.v.v.scheduler.RequestScheduler         : Unique request count in the last minute: 0
+2024-11-07T11:35:53.984+05:30  INFO 60481 --- [verve_assignment] [reactor-http-nio-2] c.v.v.service.RequestService             : External endpoint response status: 200 OK
+2024-11-07T11:36:05.859+05:30  INFO 60481 --- [verve_assignment] [scheduling-1] c.v.v.scheduler.RequestScheduler         : Unique request count in the last minute: 1
+2024-11-07T11:37:05.858+05:30  INFO 60481 --- [verve_assignment] [scheduling-1] c.v.v.scheduler.RequestScheduler         : Unique request count in the last minute: 0
+2024-11-07T11:38:05.860+05:30  INFO 60481 --- [verve_assignment] [scheduling-1] c.v.v.scheduler.RequestScheduler         : Unique request count in the last minute: 0
+2024-11-07T11:39:05.857+05:30  INFO 60481 --- [verve_assignment] [scheduling-1] c.v.v.scheduler.RequestScheduler         : Unique request count in the last minute: 0
+2024-11-07T11:40:05.856+05:30  INFO 60481 --- [verve_assignment] [scheduling-1] c.v.v.scheduler.RequestScheduler         : Unique request count in the last minute: 0
+2024-11-07T11:41:05.857+05:30  INFO 60481 --- [verve_assignment] [scheduling-1] c.v.v.scheduler.RequestScheduler         : Unique request count in the last minute: 0
+2024-11-07T11:57:10.532+05:30  INFO 61057 --- [verve_assignment] [restartedMain] c.v.v.VerveAssignmentApplication         : Starting VerveAssignmentApplication using Java 17.0.13 with PID 61057 (/Users/nishasaini/Developer/JavaWork/verve_assignment/target/classes started by nishasaini in /Users/nishasaini/Developer/JavaWork/verve_assignment)
+2024-11-07T11:57:10.533+05:30  INFO 61057 --- [verve_assignment] [restartedMain] c.v.v.VerveAssignmentApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-11-07T11:57:10.561+05:30  INFO 61057 --- [verve_assignment] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-07T11:57:10.561+05:30  INFO 61057 --- [verve_assignment] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-07T11:57:11.105+05:30  INFO 61057 --- [verve_assignment] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-11-07T11:57:11.112+05:30  INFO 61057 --- [verve_assignment] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-07T11:57:11.112+05:30  INFO 61057 --- [verve_assignment] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-07T11:57:11.132+05:30  INFO 61057 --- [verve_assignment] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-07T11:57:11.133+05:30  INFO 61057 --- [verve_assignment] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 572 ms
+2024-11-07T11:57:11.491+05:30  INFO 61057 --- [verve_assignment] [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2024-11-07T11:57:11.496+05:30  INFO 61057 --- [verve_assignment] [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2024-11-07T11:57:11.496+05:30  INFO 61057 --- [verve_assignment] [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.2 created.
+2024-11-07T11:57:11.497+05:30  INFO 61057 --- [verve_assignment] [restartedMain] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2024-11-07T11:57:11.497+05:30  INFO 61057 --- [verve_assignment] [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2024-11-07T11:57:11.497+05:30  INFO 61057 --- [verve_assignment] [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2024-11-07T11:57:11.498+05:30  INFO 61057 --- [verve_assignment] [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.2
+2024-11-07T11:57:11.498+05:30  INFO 61057 --- [verve_assignment] [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@46ffdc36
+2024-11-07T11:57:11.517+05:30  INFO 61057 --- [verve_assignment] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-11-07T11:57:11.521+05:30  INFO 61057 --- [verve_assignment] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2024-11-07T11:57:11.554+05:30  INFO 61057 --- [verve_assignment] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-11-07T11:57:11.555+05:30  INFO 61057 --- [verve_assignment] [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2024-11-07T11:57:11.555+05:30  INFO 61057 --- [verve_assignment] [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2024-11-07T11:57:11.573+05:30  INFO 61057 --- [verve_assignment] [restartedMain] c.v.v.VerveAssignmentApplication         : Started VerveAssignmentApplication in 1.267 seconds (process running for 1.563)
+2024-11-07T11:57:11.575+05:30  INFO 61057 --- [verve_assignment] [scheduling-1] c.v.v.scheduler.RequestScheduler         : Unique request count in the last minute: 0
+2024-11-07T11:58:11.578+05:30  INFO 61057 --- [verve_assignment] [scheduling-1] c.v.v.scheduler.RequestScheduler         : Unique request count in the last minute: 0
+2024-11-07T11:59:11.579+05:30  INFO 61057 --- [verve_assignment] [scheduling-1] c.v.v.scheduler.RequestScheduler         : Unique request count in the last minute: 0
+2024-11-07T12:00:11.578+05:30  INFO 61057 --- [verve_assignment] [scheduling-1] c.v.v.scheduler.RequestScheduler         : Unique request count in the last minute: 0
+2024-11-07T12:01:11.620+05:30  INFO 61057 --- [verve_assignment] [scheduling-1] c.v.v.scheduler.RequestScheduler         : Unique request count in the last minute: 0
+2024-11-07T12:02:11.626+05:30  INFO 61057 --- [verve_assignment] [scheduling-1] c.v.v.scheduler.RequestScheduler         : Unique request count in the last minute: 0
+2024-11-07T12:13:34.237+05:30  INFO 61485 --- [verve_assignment] [restartedMain] c.v.v.VerveAssignmentApplication         : Starting VerveAssignmentApplication using Java 17.0.13 with PID 61485 (/Users/nishasaini/Developer/JavaWork/verve_assignment/target/classes started by nishasaini in /Users/nishasaini/Developer/JavaWork/verve_assignment)
+2024-11-07T12:13:34.239+05:30  INFO 61485 --- [verve_assignment] [restartedMain] c.v.v.VerveAssignmentApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-11-07T12:13:34.265+05:30  INFO 61485 --- [verve_assignment] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-07T12:13:34.265+05:30  INFO 61485 --- [verve_assignment] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-07T12:13:35.060+05:30  INFO 61485 --- [verve_assignment] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-11-07T12:13:35.066+05:30  INFO 61485 --- [verve_assignment] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-07T12:13:35.066+05:30  INFO 61485 --- [verve_assignment] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-07T12:13:35.086+05:30  INFO 61485 --- [verve_assignment] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-07T12:13:35.087+05:30  INFO 61485 --- [verve_assignment] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 821 ms
+2024-11-07T12:13:35.448+05:30  INFO 61485 --- [verve_assignment] [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2024-11-07T12:13:35.453+05:30  INFO 61485 --- [verve_assignment] [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2024-11-07T12:13:35.453+05:30  INFO 61485 --- [verve_assignment] [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.2 created.
+2024-11-07T12:13:35.453+05:30  INFO 61485 --- [verve_assignment] [restartedMain] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2024-11-07T12:13:35.454+05:30  INFO 61485 --- [verve_assignment] [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2024-11-07T12:13:35.454+05:30  INFO 61485 --- [verve_assignment] [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2024-11-07T12:13:35.454+05:30  INFO 61485 --- [verve_assignment] [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.2
+2024-11-07T12:13:35.454+05:30  INFO 61485 --- [verve_assignment] [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@2e0976fe
+2024-11-07T12:13:35.475+05:30  INFO 61485 --- [verve_assignment] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-11-07T12:13:35.480+05:30  INFO 61485 --- [verve_assignment] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2024-11-07T12:13:35.509+05:30  INFO 61485 --- [verve_assignment] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-11-07T12:13:35.510+05:30  INFO 61485 --- [verve_assignment] [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2024-11-07T12:13:35.510+05:30  INFO 61485 --- [verve_assignment] [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2024-11-07T12:13:35.526+05:30  INFO 61485 --- [verve_assignment] [restartedMain] c.v.v.VerveAssignmentApplication         : Started VerveAssignmentApplication in 1.472 seconds (process running for 1.75)
+2024-11-07T12:13:35.529+05:30  INFO 61485 --- [verve_assignment] [scheduling-1] c.v.v.scheduler.RequestScheduler         : Unique request count in the last minute: 0
+2024-11-07T12:14:35.532+05:30  INFO 61485 --- [verve_assignment] [scheduling-1] c.v.v.scheduler.RequestScheduler         : Unique request count in the last minute: 0
+2024-11-07T12:14:42.791+05:30  INFO 61485 --- [verve_assignment] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-07T12:14:42.792+05:30  INFO 61485 --- [verve_assignment] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-11-07T12:14:42.794+05:30  INFO 61485 --- [verve_assignment] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-11-07T12:14:42.897+05:30 ERROR 61485 --- [verve_assignment] [http-nio-8080-exec-1] i.n.r.d.DnsServerAddressStreamProviders  : Unable to load io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'. Use DEBUG level to see the full stack: java.lang.UnsatisfiedLinkError: failed to load the required native library
+2024-11-07T12:14:47.993+05:30 ERROR 61485 --- [verve_assignment] [reactor-http-nio-1] c.v.v.service.RequestService             : Unexpected error during HTTP request
+
+org.springframework.web.reactive.function.client.WebClientRequestException: Failed to resolve 'your-other-endpoint.com' [A(1)]
+	at org.springframework.web.reactive.function.client.ExchangeFunctions$DefaultExchangeFunction.lambda$wrapException$9(ExchangeFunctions.java:136) ~[spring-webflux-6.1.14.jar:6.1.14]
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ Request to GET http://your-other-endpoint.com [DefaultWebClient]
+Original Stack Trace:
+		at org.springframework.web.reactive.function.client.ExchangeFunctions$DefaultExchangeFunction.lambda$wrapException$9(ExchangeFunctions.java:136) ~[spring-webflux-6.1.14.jar:6.1.14]
+		at reactor.core.publisher.MonoErrorSupplied.subscribe(MonoErrorSupplied.java:55) ~[reactor-core-3.6.11.jar:3.6.11]
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4576) ~[reactor-core-3.6.11.jar:3.6.11]
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:103) ~[reactor-core-3.6.11.jar:3.6.11]
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:222) ~[reactor-core-3.6.11.jar:3.6.11]
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:222) ~[reactor-core-3.6.11.jar:3.6.11]
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:222) ~[reactor-core-3.6.11.jar:3.6.11]
+		at reactor.core.publisher.MonoNext$NextSubscriber.onError(MonoNext.java:93) ~[reactor-core-3.6.11.jar:3.6.11]
+		at reactor.core.publisher.MonoFlatMapMany$FlatMapManyMain.onError(MonoFlatMapMany.java:205) ~[reactor-core-3.6.11.jar:3.6.11]
+		at reactor.core.publisher.SerializedSubscriber.onError(SerializedSubscriber.java:124) ~[reactor-core-3.6.11.jar:3.6.11]
+		at reactor.core.publisher.FluxRetryWhen$RetryWhenMainSubscriber.whenError(FluxRetryWhen.java:229) ~[reactor-core-3.6.11.jar:3.6.11]
+		at reactor.core.publisher.FluxRetryWhen$RetryWhenOtherSubscriber.onError(FluxRetryWhen.java:279) ~[reactor-core-3.6.11.jar:3.6.11]
+		at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.onError(FluxContextWrite.java:121) ~[reactor-core-3.6.11.jar:3.6.11]
+		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.maybeOnError(FluxConcatMapNoPrefetch.java:327) ~[reactor-core-3.6.11.jar:3.6.11]
+		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.onNext(FluxConcatMapNoPrefetch.java:212) ~[reactor-core-3.6.11.jar:3.6.11]
+		at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.onNext(FluxContextWrite.java:107) ~[reactor-core-3.6.11.jar:3.6.11]
+		at reactor.core.publisher.SinkManyEmitterProcessor.drain(SinkManyEmitterProcessor.java:476) ~[reactor-core-3.6.11.jar:3.6.11]
+		at reactor.core.publisher.SinkManyEmitterProcessor$EmitterInner.drainParent(SinkManyEmitterProcessor.java:620) ~[reactor-core-3.6.11.jar:3.6.11]
+		at reactor.core.publisher.FluxPublish$PubSubInner.request(FluxPublish.java:874) ~[reactor-core-3.6.11.jar:3.6.11]
+		at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.request(FluxContextWrite.java:136) ~[reactor-core-3.6.11.jar:3.6.11]
+		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.request(FluxConcatMapNoPrefetch.java:337) ~[reactor-core-3.6.11.jar:3.6.11]
+		at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.request(FluxContextWrite.java:136) ~[reactor-core-3.6.11.jar:3.6.11]
+		at reactor.core.publisher.Operators$DeferredSubscription.request(Operators.java:1743) ~[reactor-core-3.6.11.jar:3.6.11]
+		at reactor.core.publisher.FluxRetryWhen$RetryWhenMainSubscriber.onError(FluxRetryWhen.java:196) ~[reactor-core-3.6.11.jar:3.6.11]
+		at reactor.core.publisher.MonoCreate$DefaultMonoSink.error(MonoCreate.java:205) ~[reactor-core-3.6.11.jar:3.6.11]
+		at reactor.netty.http.client.HttpClientConnect$MonoHttpConnect$ClientTransportSubscriber.onError(HttpClientConnect.java:311) ~[reactor-netty-http-1.1.23.jar:1.1.23]
+		at reactor.core.publisher.MonoCreate$DefaultMonoSink.error(MonoCreate.java:205) ~[reactor-core-3.6.11.jar:3.6.11]
+		at reactor.netty.resources.DefaultPooledConnectionProvider$DisposableAcquire.onError(DefaultPooledConnectionProvider.java:172) ~[reactor-netty-core-1.1.23.jar:1.1.23]
+		at reactor.netty.internal.shaded.reactor.pool.AbstractPool$Borrower.fail(AbstractPool.java:480) ~[reactor-netty-core-1.1.23.jar:1.1.23]
+		at reactor.netty.internal.shaded.reactor.pool.SimpleDequePool.lambda$drainLoop$9(SimpleDequePool.java:436) ~[reactor-netty-core-1.1.23.jar:1.1.23]
+		at reactor.core.publisher.FluxDoOnEach$DoOnEachSubscriber.onError(FluxDoOnEach.java:186) ~[reactor-core-3.6.11.jar:3.6.11]
+		at reactor.core.publisher.MonoCreate$DefaultMonoSink.error(MonoCreate.java:205) ~[reactor-core-3.6.11.jar:3.6.11]
+		at reactor.netty.resources.DefaultPooledConnectionProvider$PooledConnectionAllocator$PooledConnectionInitializer.onError(DefaultPooledConnectionProvider.java:583) ~[reactor-netty-core-1.1.23.jar:1.1.23]
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.secondError(MonoFlatMap.java:241) ~[reactor-core-3.6.11.jar:3.6.11]
+		at reactor.core.publisher.MonoFlatMap$FlatMapInner.onError(MonoFlatMap.java:315) ~[reactor-core-3.6.11.jar:3.6.11]
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:106) ~[reactor-core-3.6.11.jar:3.6.11]
+		at reactor.core.publisher.Operators.error(Operators.java:198) ~[reactor-core-3.6.11.jar:3.6.11]
+		at reactor.core.publisher.MonoError.subscribe(MonoError.java:53) ~[reactor-core-3.6.11.jar:3.6.11]
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4576) ~[reactor-core-3.6.11.jar:3.6.11]
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:103) ~[reactor-core-3.6.11.jar:3.6.11]
+		at reactor.netty.transport.TransportConnector$MonoChannelPromise.tryFailure(TransportConnector.java:576) ~[reactor-netty-core-1.1.23.jar:1.1.23]
+		at reactor.netty.transport.TransportConnector.lambda$doResolveAndConnect$11(TransportConnector.java:375) ~[reactor-netty-core-1.1.23.jar:1.1.23]
+		at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:590) ~[netty-common-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:557) ~[netty-common-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:492) ~[netty-common-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:636) ~[netty-common-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:629) ~[netty-common-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.util.concurrent.DefaultPromise.setFailure(DefaultPromise.java:110) ~[netty-common-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.resolver.InetSocketAddressResolver$2.operationComplete(InetSocketAddressResolver.java:86) ~[netty-resolver-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:590) ~[netty-common-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:583) ~[netty-common-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:559) ~[netty-common-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:492) ~[netty-common-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:636) ~[netty-common-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:629) ~[netty-common-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:118) ~[netty-common-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.resolver.dns.DnsResolveContext.finishResolve(DnsResolveContext.java:1158) ~[netty-resolver-dns-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.resolver.dns.DnsResolveContext.tryToFinishResolve(DnsResolveContext.java:1097) ~[netty-resolver-dns-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.resolver.dns.DnsResolveContext.query(DnsResolveContext.java:455) ~[netty-resolver-dns-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.resolver.dns.DnsResolveContext.access$700(DnsResolveContext.java:70) ~[netty-resolver-dns-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.resolver.dns.DnsResolveContext$2.operationComplete(DnsResolveContext.java:524) ~[netty-resolver-dns-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:590) ~[netty-common-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:583) ~[netty-common-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:559) ~[netty-common-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:492) ~[netty-common-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:636) ~[netty-common-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:629) ~[netty-common-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:118) ~[netty-common-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.resolver.dns.DnsQueryContext.finishFailure(DnsQueryContext.java:343) ~[netty-resolver-dns-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.resolver.dns.DnsQueryContext$4.run(DnsQueryContext.java:278) ~[netty-resolver-dns-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98) ~[netty-common-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:156) ~[netty-common-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:173) ~[netty-common-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:166) ~[netty-common-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472) ~[netty-common-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569) ~[netty-transport-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.114.Final.jar:4.1.114.Final]
+		at java.base/java.lang.Thread.run(Unknown Source) ~[na:na]
+Caused by: java.net.UnknownHostException: Failed to resolve 'your-other-endpoint.com' [A(1)]
+	at io.netty.resolver.dns.DnsResolveContext.finishResolve(DnsResolveContext.java:1150) ~[netty-resolver-dns-4.1.114.Final.jar:4.1.114.Final]
+	at io.netty.resolver.dns.DnsResolveContext.tryToFinishResolve(DnsResolveContext.java:1097) ~[netty-resolver-dns-4.1.114.Final.jar:4.1.114.Final]
+	at io.netty.resolver.dns.DnsResolveContext.query(DnsResolveContext.java:455) ~[netty-resolver-dns-4.1.114.Final.jar:4.1.114.Final]
+	at io.netty.resolver.dns.DnsResolveContext.access$700(DnsResolveContext.java:70) ~[netty-resolver-dns-4.1.114.Final.jar:4.1.114.Final]
+	at io.netty.resolver.dns.DnsResolveContext$2.operationComplete(DnsResolveContext.java:524) ~[netty-resolver-dns-4.1.114.Final.jar:4.1.114.Final]
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:590) ~[netty-common-4.1.114.Final.jar:4.1.114.Final]
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:583) ~[netty-common-4.1.114.Final.jar:4.1.114.Final]
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:559) ~[netty-common-4.1.114.Final.jar:4.1.114.Final]
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:492) ~[netty-common-4.1.114.Final.jar:4.1.114.Final]
+	at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:636) ~[netty-common-4.1.114.Final.jar:4.1.114.Final]
+	at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:629) ~[netty-common-4.1.114.Final.jar:4.1.114.Final]
+	at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:118) ~[netty-common-4.1.114.Final.jar:4.1.114.Final]
+	at io.netty.resolver.dns.DnsQueryContext.finishFailure(DnsQueryContext.java:343) ~[netty-resolver-dns-4.1.114.Final.jar:4.1.114.Final]
+	at io.netty.resolver.dns.DnsQueryContext$4.run(DnsQueryContext.java:278) ~[netty-resolver-dns-4.1.114.Final.jar:4.1.114.Final]
+	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98) ~[netty-common-4.1.114.Final.jar:4.1.114.Final]
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:156) ~[netty-common-4.1.114.Final.jar:4.1.114.Final]
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:173) ~[netty-common-4.1.114.Final.jar:4.1.114.Final]
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:166) ~[netty-common-4.1.114.Final.jar:4.1.114.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472) ~[netty-common-4.1.114.Final.jar:4.1.114.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569) ~[netty-transport-4.1.114.Final.jar:4.1.114.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.114.Final.jar:4.1.114.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.114.Final.jar:4.1.114.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.114.Final.jar:4.1.114.Final]
+	at java.base/java.lang.Thread.run(Unknown Source) ~[na:na]
+Caused by: io.netty.resolver.dns.DnsNameResolverTimeoutException: [6516: /192.168.1.1:53] DefaultDnsQuestion(your-other-endpoint.com. IN A) query '6516' via UDP timed out after 5000 milliseconds (no stack trace available)
+
+2024-11-07T12:14:48.005+05:30 ERROR 61485 --- [verve_assignment] [reactor-http-nio-1] reactor.core.publisher.Operators         : Operator called default onErrorDropped
+
+reactor.core.Exceptions$ErrorCallbackNotImplemented: org.springframework.web.reactive.function.client.WebClientRequestException: Failed to resolve 'your-other-endpoint.com' [A(1)]
+Caused by: org.springframework.web.reactive.function.client.WebClientRequestException: Failed to resolve 'your-other-endpoint.com' [A(1)]
+	at org.springframework.web.reactive.function.client.ExchangeFunctions$DefaultExchangeFunction.lambda$wrapException$9(ExchangeFunctions.java:136) ~[spring-webflux-6.1.14.jar:6.1.14]
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ Request to GET http://your-other-endpoint.com [DefaultWebClient]
+Original Stack Trace:
+		at org.springframework.web.reactive.function.client.ExchangeFunctions$DefaultExchangeFunction.lambda$wrapException$9(ExchangeFunctions.java:136) ~[spring-webflux-6.1.14.jar:6.1.14]
+		at reactor.core.publisher.MonoErrorSupplied.subscribe(MonoErrorSupplied.java:55) ~[reactor-core-3.6.11.jar:3.6.11]
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4576) ~[reactor-core-3.6.11.jar:3.6.11]
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:103) ~[reactor-core-3.6.11.jar:3.6.11]
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:222) ~[reactor-core-3.6.11.jar:3.6.11]
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:222) ~[reactor-core-3.6.11.jar:3.6.11]
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:222) ~[reactor-core-3.6.11.jar:3.6.11]
+		at reactor.core.publisher.MonoNext$NextSubscriber.onError(MonoNext.java:93) ~[reactor-core-3.6.11.jar:3.6.11]
+		at reactor.core.publisher.MonoFlatMapMany$FlatMapManyMain.onError(MonoFlatMapMany.java:205) ~[reactor-core-3.6.11.jar:3.6.11]
+		at reactor.core.publisher.SerializedSubscriber.onError(SerializedSubscriber.java:124) ~[reactor-core-3.6.11.jar:3.6.11]
+		at reactor.core.publisher.FluxRetryWhen$RetryWhenMainSubscriber.whenError(FluxRetryWhen.java:229) ~[reactor-core-3.6.11.jar:3.6.11]
+		at reactor.core.publisher.FluxRetryWhen$RetryWhenOtherSubscriber.onError(FluxRetryWhen.java:279) ~[reactor-core-3.6.11.jar:3.6.11]
+		at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.onError(FluxContextWrite.java:121) ~[reactor-core-3.6.11.jar:3.6.11]
+		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.maybeOnError(FluxConcatMapNoPrefetch.java:327) ~[reactor-core-3.6.11.jar:3.6.11]
+		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.onNext(FluxConcatMapNoPrefetch.java:212) ~[reactor-core-3.6.11.jar:3.6.11]
+		at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.onNext(FluxContextWrite.java:107) ~[reactor-core-3.6.11.jar:3.6.11]
+		at reactor.core.publisher.SinkManyEmitterProcessor.drain(SinkManyEmitterProcessor.java:476) ~[reactor-core-3.6.11.jar:3.6.11]
+		at reactor.core.publisher.SinkManyEmitterProcessor$EmitterInner.drainParent(SinkManyEmitterProcessor.java:620) ~[reactor-core-3.6.11.jar:3.6.11]
+		at reactor.core.publisher.FluxPublish$PubSubInner.request(FluxPublish.java:874) ~[reactor-core-3.6.11.jar:3.6.11]
+		at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.request(FluxContextWrite.java:136) ~[reactor-core-3.6.11.jar:3.6.11]
+		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.request(FluxConcatMapNoPrefetch.java:337) ~[reactor-core-3.6.11.jar:3.6.11]
+		at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.request(FluxContextWrite.java:136) ~[reactor-core-3.6.11.jar:3.6.11]
+		at reactor.core.publisher.Operators$DeferredSubscription.request(Operators.java:1743) ~[reactor-core-3.6.11.jar:3.6.11]
+		at reactor.core.publisher.FluxRetryWhen$RetryWhenMainSubscriber.onError(FluxRetryWhen.java:196) ~[reactor-core-3.6.11.jar:3.6.11]
+		at reactor.core.publisher.MonoCreate$DefaultMonoSink.error(MonoCreate.java:205) ~[reactor-core-3.6.11.jar:3.6.11]
+		at reactor.netty.http.client.HttpClientConnect$MonoHttpConnect$ClientTransportSubscriber.onError(HttpClientConnect.java:311) ~[reactor-netty-http-1.1.23.jar:1.1.23]
+		at reactor.core.publisher.MonoCreate$DefaultMonoSink.error(MonoCreate.java:205) ~[reactor-core-3.6.11.jar:3.6.11]
+		at reactor.netty.resources.DefaultPooledConnectionProvider$DisposableAcquire.onError(DefaultPooledConnectionProvider.java:172) ~[reactor-netty-core-1.1.23.jar:1.1.23]
+		at reactor.netty.internal.shaded.reactor.pool.AbstractPool$Borrower.fail(AbstractPool.java:480) ~[reactor-netty-core-1.1.23.jar:1.1.23]
+		at reactor.netty.internal.shaded.reactor.pool.SimpleDequePool.lambda$drainLoop$9(SimpleDequePool.java:436) ~[reactor-netty-core-1.1.23.jar:1.1.23]
+		at reactor.core.publisher.FluxDoOnEach$DoOnEachSubscriber.onError(FluxDoOnEach.java:186) ~[reactor-core-3.6.11.jar:3.6.11]
+		at reactor.core.publisher.MonoCreate$DefaultMonoSink.error(MonoCreate.java:205) ~[reactor-core-3.6.11.jar:3.6.11]
+		at reactor.netty.resources.DefaultPooledConnectionProvider$PooledConnectionAllocator$PooledConnectionInitializer.onError(DefaultPooledConnectionProvider.java:583) ~[reactor-netty-core-1.1.23.jar:1.1.23]
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.secondError(MonoFlatMap.java:241) ~[reactor-core-3.6.11.jar:3.6.11]
+		at reactor.core.publisher.MonoFlatMap$FlatMapInner.onError(MonoFlatMap.java:315) ~[reactor-core-3.6.11.jar:3.6.11]
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:106) ~[reactor-core-3.6.11.jar:3.6.11]
+		at reactor.core.publisher.Operators.error(Operators.java:198) ~[reactor-core-3.6.11.jar:3.6.11]
+		at reactor.core.publisher.MonoError.subscribe(MonoError.java:53) ~[reactor-core-3.6.11.jar:3.6.11]
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4576) ~[reactor-core-3.6.11.jar:3.6.11]
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:103) ~[reactor-core-3.6.11.jar:3.6.11]
+		at reactor.netty.transport.TransportConnector$MonoChannelPromise.tryFailure(TransportConnector.java:576) ~[reactor-netty-core-1.1.23.jar:1.1.23]
+		at reactor.netty.transport.TransportConnector.lambda$doResolveAndConnect$11(TransportConnector.java:375) ~[reactor-netty-core-1.1.23.jar:1.1.23]
+		at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:590) ~[netty-common-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:557) ~[netty-common-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:492) ~[netty-common-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:636) ~[netty-common-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:629) ~[netty-common-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.util.concurrent.DefaultPromise.setFailure(DefaultPromise.java:110) ~[netty-common-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.resolver.InetSocketAddressResolver$2.operationComplete(InetSocketAddressResolver.java:86) ~[netty-resolver-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:590) ~[netty-common-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:583) ~[netty-common-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:559) ~[netty-common-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:492) ~[netty-common-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:636) ~[netty-common-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:629) ~[netty-common-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:118) ~[netty-common-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.resolver.dns.DnsResolveContext.finishResolve(DnsResolveContext.java:1158) ~[netty-resolver-dns-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.resolver.dns.DnsResolveContext.tryToFinishResolve(DnsResolveContext.java:1097) ~[netty-resolver-dns-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.resolver.dns.DnsResolveContext.query(DnsResolveContext.java:455) ~[netty-resolver-dns-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.resolver.dns.DnsResolveContext.access$700(DnsResolveContext.java:70) ~[netty-resolver-dns-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.resolver.dns.DnsResolveContext$2.operationComplete(DnsResolveContext.java:524) ~[netty-resolver-dns-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:590) ~[netty-common-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:583) ~[netty-common-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:559) ~[netty-common-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:492) ~[netty-common-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:636) ~[netty-common-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:629) ~[netty-common-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:118) ~[netty-common-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.resolver.dns.DnsQueryContext.finishFailure(DnsQueryContext.java:343) ~[netty-resolver-dns-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.resolver.dns.DnsQueryContext$4.run(DnsQueryContext.java:278) ~[netty-resolver-dns-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98) ~[netty-common-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:156) ~[netty-common-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:173) ~[netty-common-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:166) ~[netty-common-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472) ~[netty-common-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569) ~[netty-transport-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.114.Final.jar:4.1.114.Final]
+		at java.base/java.lang.Thread.run(Unknown Source) ~[na:na]
+Caused by: java.net.UnknownHostException: Failed to resolve 'your-other-endpoint.com' [A(1)]
+	at io.netty.resolver.dns.DnsResolveContext.finishResolve(DnsResolveContext.java:1150) ~[netty-resolver-dns-4.1.114.Final.jar:4.1.114.Final]
+	at io.netty.resolver.dns.DnsResolveContext.tryToFinishResolve(DnsResolveContext.java:1097) ~[netty-resolver-dns-4.1.114.Final.jar:4.1.114.Final]
+	at io.netty.resolver.dns.DnsResolveContext.query(DnsResolveContext.java:455) ~[netty-resolver-dns-4.1.114.Final.jar:4.1.114.Final]
+	at io.netty.resolver.dns.DnsResolveContext.access$700(DnsResolveContext.java:70) ~[netty-resolver-dns-4.1.114.Final.jar:4.1.114.Final]
+	at io.netty.resolver.dns.DnsResolveContext$2.operationComplete(DnsResolveContext.java:524) ~[netty-resolver-dns-4.1.114.Final.jar:4.1.114.Final]
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:590) ~[netty-common-4.1.114.Final.jar:4.1.114.Final]
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:583) ~[netty-common-4.1.114.Final.jar:4.1.114.Final]
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:559) ~[netty-common-4.1.114.Final.jar:4.1.114.Final]
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:492) ~[netty-common-4.1.114.Final.jar:4.1.114.Final]
+	at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:636) ~[netty-common-4.1.114.Final.jar:4.1.114.Final]
+	at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:629) ~[netty-common-4.1.114.Final.jar:4.1.114.Final]
+	at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:118) ~[netty-common-4.1.114.Final.jar:4.1.114.Final]
+	at io.netty.resolver.dns.DnsQueryContext.finishFailure(DnsQueryContext.java:343) ~[netty-resolver-dns-4.1.114.Final.jar:4.1.114.Final]
+	at io.netty.resolver.dns.DnsQueryContext$4.run(DnsQueryContext.java:278) ~[netty-resolver-dns-4.1.114.Final.jar:4.1.114.Final]
+	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98) ~[netty-common-4.1.114.Final.jar:4.1.114.Final]
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:156) ~[netty-common-4.1.114.Final.jar:4.1.114.Final]
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:173) ~[netty-common-4.1.114.Final.jar:4.1.114.Final]
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:166) ~[netty-common-4.1.114.Final.jar:4.1.114.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472) ~[netty-common-4.1.114.Final.jar:4.1.114.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569) ~[netty-transport-4.1.114.Final.jar:4.1.114.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.114.Final.jar:4.1.114.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.114.Final.jar:4.1.114.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.114.Final.jar:4.1.114.Final]
+	at java.base/java.lang.Thread.run(Unknown Source) ~[na:na]
+Caused by: io.netty.resolver.dns.DnsNameResolverTimeoutException: [6516: /192.168.1.1:53] DefaultDnsQuestion(your-other-endpoint.com. IN A) query '6516' via UDP timed out after 5000 milliseconds (no stack trace available)
+
+2024-11-07T12:15:35.531+05:30  INFO 61485 --- [verve_assignment] [scheduling-1] c.v.v.scheduler.RequestScheduler         : Unique request count in the last minute: 1
+2024-11-07T12:16:35.528+05:30  INFO 61485 --- [verve_assignment] [scheduling-1] c.v.v.scheduler.RequestScheduler         : Unique request count in the last minute: 0
+2024-11-07T12:17:35.527+05:30  INFO 61485 --- [verve_assignment] [scheduling-1] c.v.v.scheduler.RequestScheduler         : Unique request count in the last minute: 0
+2024-11-07T12:18:35.531+05:30  INFO 61485 --- [verve_assignment] [scheduling-1] c.v.v.scheduler.RequestScheduler         : Unique request count in the last minute: 0
+2024-11-07T12:19:35.532+05:30  INFO 61485 --- [verve_assignment] [scheduling-1] c.v.v.scheduler.RequestScheduler         : Unique request count in the last minute: 0
+2024-11-07T12:20:35.571+05:30  INFO 61485 --- [verve_assignment] [scheduling-1] c.v.v.scheduler.RequestScheduler         : Unique request count in the last minute: 0
+2024-11-07T12:21:35.587+05:30  INFO 61485 --- [verve_assignment] [scheduling-1] c.v.v.scheduler.RequestScheduler         : Unique request count in the last minute: 0
+2024-11-07T12:22:35.577+05:30  INFO 61485 --- [verve_assignment] [scheduling-1] c.v.v.scheduler.RequestScheduler         : Unique request count in the last minute: 0
+2024-11-07T12:23:35.575+05:30  INFO 61485 --- [verve_assignment] [scheduling-1] c.v.v.scheduler.RequestScheduler         : Unique request count in the last minute: 0
+2024-11-07T12:24:57.435+05:30  INFO 61485 --- [verve_assignment] [scheduling-1] c.v.v.scheduler.RequestScheduler         : Unique request count in the last minute: 0
+2024-11-07T12:25:57.447+05:30  INFO 61485 --- [verve_assignment] [scheduling-1] c.v.v.scheduler.RequestScheduler         : Unique request count in the last minute: 0
+2024-11-07T13:19:40.112+05:30  INFO 62098 --- [verve_assignment] [restartedMain] c.v.v.VerveAssignmentApplication         : Starting VerveAssignmentApplication using Java 17.0.13 with PID 62098 (/Users/nishasaini/Developer/JavaWork/verve_assignment/target/classes started by nishasaini in /Users/nishasaini/Developer/JavaWork/verve_assignment)
+2024-11-07T13:19:40.114+05:30  INFO 62098 --- [verve_assignment] [restartedMain] c.v.v.VerveAssignmentApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-11-07T13:19:40.142+05:30  INFO 62098 --- [verve_assignment] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-07T13:19:40.142+05:30  INFO 62098 --- [verve_assignment] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-07T13:19:40.687+05:30  INFO 62098 --- [verve_assignment] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-11-07T13:19:40.693+05:30  INFO 62098 --- [verve_assignment] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-07T13:19:40.693+05:30  INFO 62098 --- [verve_assignment] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-07T13:19:40.714+05:30  INFO 62098 --- [verve_assignment] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-07T13:19:40.714+05:30  INFO 62098 --- [verve_assignment] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 572 ms
+2024-11-07T13:19:41.075+05:30  INFO 62098 --- [verve_assignment] [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2024-11-07T13:19:41.080+05:30  INFO 62098 --- [verve_assignment] [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2024-11-07T13:19:41.080+05:30  INFO 62098 --- [verve_assignment] [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.2 created.
+2024-11-07T13:19:41.081+05:30  INFO 62098 --- [verve_assignment] [restartedMain] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2024-11-07T13:19:41.081+05:30  INFO 62098 --- [verve_assignment] [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2024-11-07T13:19:41.081+05:30  INFO 62098 --- [verve_assignment] [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2024-11-07T13:19:41.081+05:30  INFO 62098 --- [verve_assignment] [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.2
+2024-11-07T13:19:41.081+05:30  INFO 62098 --- [verve_assignment] [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@30daa232
+2024-11-07T13:19:41.099+05:30  INFO 62098 --- [verve_assignment] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-11-07T13:19:41.102+05:30  INFO 62098 --- [verve_assignment] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2024-11-07T13:19:41.133+05:30  INFO 62098 --- [verve_assignment] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-11-07T13:19:41.134+05:30  INFO 62098 --- [verve_assignment] [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2024-11-07T13:19:41.134+05:30  INFO 62098 --- [verve_assignment] [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2024-11-07T13:19:41.147+05:30  INFO 62098 --- [verve_assignment] [restartedMain] c.v.v.VerveAssignmentApplication         : Started VerveAssignmentApplication in 1.225 seconds (process running for 1.49)
+2024-11-07T13:19:41.152+05:30  INFO 62098 --- [verve_assignment] [scheduling-1] c.v.v.scheduler.RequestScheduler         : Unique request count in the last minute: 0
+2024-11-07T13:20:41.155+05:30  INFO 62098 --- [verve_assignment] [scheduling-1] c.v.v.scheduler.RequestScheduler         : Unique request count in the last minute: 0
+2024-11-07T13:20:44.535+05:30  INFO 62098 --- [verve_assignment] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-07T13:20:44.536+05:30  INFO 62098 --- [verve_assignment] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-11-07T13:20:44.538+05:30  INFO 62098 --- [verve_assignment] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-11-07T13:21:41.151+05:30  INFO 62098 --- [verve_assignment] [scheduling-1] c.v.v.scheduler.RequestScheduler         : Unique request count in the last minute: 0
+2024-11-07T13:21:59.564+05:30 ERROR 62098 --- [verve_assignment] [http-nio-8080-exec-4] i.n.r.d.DnsServerAddressStreamProviders  : Unable to load io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'. Use DEBUG level to see the full stack: java.lang.UnsatisfiedLinkError: failed to load the required native library
+2024-11-07T13:21:59.642+05:30  WARN 62098 --- [verve_assignment] [http-nio-8080-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2024-11-07T13:21:59.691+05:30 ERROR 62098 --- [verve_assignment] [reactor-http-nio-2] c.v.v.service.RequestService             : HTTP request failed with status: 405 METHOD_NOT_ALLOWED
+
+org.springframework.web.reactive.function.client.WebClientResponseException$MethodNotAllowed: 405 Method Not Allowed from GET http://localhost:8080/test/post
+	at org.springframework.web.reactive.function.client.WebClientResponseException.create(WebClientResponseException.java:325) ~[spring-webflux-6.1.14.jar:6.1.14]
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ 405 METHOD_NOT_ALLOWED from GET http://localhost:8080/test/post [DefaultWebClient]
+Original Stack Trace:
+		at org.springframework.web.reactive.function.client.WebClientResponseException.create(WebClientResponseException.java:325) ~[spring-webflux-6.1.14.jar:6.1.14]
+		at org.springframework.web.reactive.function.client.DefaultClientResponse.lambda$createException$1(DefaultClientResponse.java:214) ~[spring-webflux-6.1.14.jar:6.1.14]
+		at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:106) ~[reactor-core-3.6.11.jar:3.6.11]
+		at reactor.core.publisher.FluxOnErrorReturn$ReturnSubscriber.onNext(FluxOnErrorReturn.java:162) ~[reactor-core-3.6.11.jar:3.6.11]
+		at reactor.core.publisher.FluxDefaultIfEmpty$DefaultIfEmptySubscriber.onNext(FluxDefaultIfEmpty.java:122) ~[reactor-core-3.6.11.jar:3.6.11]
+		at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onNext(FluxMapFuseable.java:129) ~[reactor-core-3.6.11.jar:3.6.11]
+		at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.onNext(FluxContextWrite.java:107) ~[reactor-core-3.6.11.jar:3.6.11]
+		at reactor.core.publisher.FluxMapFuseable$MapFuseableConditionalSubscriber.onNext(FluxMapFuseable.java:299) ~[reactor-core-3.6.11.jar:3.6.11]
+		at reactor.core.publisher.FluxFilterFuseable$FilterFuseableConditionalSubscriber.onNext(FluxFilterFuseable.java:337) ~[reactor-core-3.6.11.jar:3.6.11]
+		at reactor.core.publisher.Operators$BaseFluxToMonoOperator.completePossiblyEmpty(Operators.java:2097) ~[reactor-core-3.6.11.jar:3.6.11]
+		at reactor.core.publisher.MonoCollect$CollectSubscriber.onComplete(MonoCollect.java:145) ~[reactor-core-3.6.11.jar:3.6.11]
+		at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:144) ~[reactor-core-3.6.11.jar:3.6.11]
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onComplete(FluxPeek.java:260) ~[reactor-core-3.6.11.jar:3.6.11]
+		at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:144) ~[reactor-core-3.6.11.jar:3.6.11]
+		at reactor.netty.channel.FluxReceive.onInboundComplete(FluxReceive.java:415) ~[reactor-netty-core-1.1.23.jar:1.1.23]
+		at reactor.netty.channel.ChannelOperations.onInboundComplete(ChannelOperations.java:445) ~[reactor-netty-core-1.1.23.jar:1.1.23]
+		at reactor.netty.channel.ChannelOperations.terminate(ChannelOperations.java:499) ~[reactor-netty-core-1.1.23.jar:1.1.23]
+		at reactor.netty.http.client.HttpClientOperations.onInboundNext(HttpClientOperations.java:800) ~[reactor-netty-http-1.1.23.jar:1.1.23]
+		at reactor.netty.channel.ChannelOperationsHandler.channelRead(ChannelOperationsHandler.java:115) ~[reactor-netty-core-1.1.23.jar:1.1.23]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103) ~[netty-codec-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:436) ~[netty-transport-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346) ~[netty-codec-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:318) ~[netty-codec-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:251) ~[netty-transport-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1357) ~[netty-transport-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) ~[netty-transport-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:868) ~[netty-transport-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166) ~[netty-transport-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[netty-transport-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[netty-transport-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[netty-transport-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.114.Final.jar:4.1.114.Final]
+		at java.base/java.lang.Thread.run(Unknown Source) ~[na:na]
+
+2024-11-07T13:21:59.699+05:30 ERROR 62098 --- [verve_assignment] [reactor-http-nio-2] reactor.core.publisher.Operators         : Operator called default onErrorDropped
+
+reactor.core.Exceptions$ErrorCallbackNotImplemented: org.springframework.web.reactive.function.client.WebClientResponseException$MethodNotAllowed: 405 Method Not Allowed from GET http://localhost:8080/test/post
+Caused by: org.springframework.web.reactive.function.client.WebClientResponseException$MethodNotAllowed: 405 Method Not Allowed from GET http://localhost:8080/test/post
+	at org.springframework.web.reactive.function.client.WebClientResponseException.create(WebClientResponseException.java:325) ~[spring-webflux-6.1.14.jar:6.1.14]
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ 405 METHOD_NOT_ALLOWED from GET http://localhost:8080/test/post [DefaultWebClient]
+Original Stack Trace:
+		at org.springframework.web.reactive.function.client.WebClientResponseException.create(WebClientResponseException.java:325) ~[spring-webflux-6.1.14.jar:6.1.14]
+		at org.springframework.web.reactive.function.client.DefaultClientResponse.lambda$createException$1(DefaultClientResponse.java:214) ~[spring-webflux-6.1.14.jar:6.1.14]
+		at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:106) ~[reactor-core-3.6.11.jar:3.6.11]
+		at reactor.core.publisher.FluxOnErrorReturn$ReturnSubscriber.onNext(FluxOnErrorReturn.java:162) ~[reactor-core-3.6.11.jar:3.6.11]
+		at reactor.core.publisher.FluxDefaultIfEmpty$DefaultIfEmptySubscriber.onNext(FluxDefaultIfEmpty.java:122) ~[reactor-core-3.6.11.jar:3.6.11]
+		at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onNext(FluxMapFuseable.java:129) ~[reactor-core-3.6.11.jar:3.6.11]
+		at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.onNext(FluxContextWrite.java:107) ~[reactor-core-3.6.11.jar:3.6.11]
+		at reactor.core.publisher.FluxMapFuseable$MapFuseableConditionalSubscriber.onNext(FluxMapFuseable.java:299) ~[reactor-core-3.6.11.jar:3.6.11]
+		at reactor.core.publisher.FluxFilterFuseable$FilterFuseableConditionalSubscriber.onNext(FluxFilterFuseable.java:337) ~[reactor-core-3.6.11.jar:3.6.11]
+		at reactor.core.publisher.Operators$BaseFluxToMonoOperator.completePossiblyEmpty(Operators.java:2097) ~[reactor-core-3.6.11.jar:3.6.11]
+		at reactor.core.publisher.MonoCollect$CollectSubscriber.onComplete(MonoCollect.java:145) ~[reactor-core-3.6.11.jar:3.6.11]
+		at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:144) ~[reactor-core-3.6.11.jar:3.6.11]
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onComplete(FluxPeek.java:260) ~[reactor-core-3.6.11.jar:3.6.11]
+		at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:144) ~[reactor-core-3.6.11.jar:3.6.11]
+		at reactor.netty.channel.FluxReceive.onInboundComplete(FluxReceive.java:415) ~[reactor-netty-core-1.1.23.jar:1.1.23]
+		at reactor.netty.channel.ChannelOperations.onInboundComplete(ChannelOperations.java:445) ~[reactor-netty-core-1.1.23.jar:1.1.23]
+		at reactor.netty.channel.ChannelOperations.terminate(ChannelOperations.java:499) ~[reactor-netty-core-1.1.23.jar:1.1.23]
+		at reactor.netty.http.client.HttpClientOperations.onInboundNext(HttpClientOperations.java:800) ~[reactor-netty-http-1.1.23.jar:1.1.23]
+		at reactor.netty.channel.ChannelOperationsHandler.channelRead(ChannelOperationsHandler.java:115) ~[reactor-netty-core-1.1.23.jar:1.1.23]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103) ~[netty-codec-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:436) ~[netty-transport-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346) ~[netty-codec-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:318) ~[netty-codec-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:251) ~[netty-transport-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1357) ~[netty-transport-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) ~[netty-transport-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:868) ~[netty-transport-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166) ~[netty-transport-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[netty-transport-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[netty-transport-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[netty-transport-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.114.Final.jar:4.1.114.Final]
+		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.114.Final.jar:4.1.114.Final]
+		at java.base/java.lang.Thread.run(Unknown Source) ~[na:na]
+
+2024-11-07T13:22:41.156+05:30  INFO 62098 --- [verve_assignment] [scheduling-1] c.v.v.scheduler.RequestScheduler         : Unique request count in the last minute: 1
+2024-11-07T13:22:58.556+05:30  WARN 62098 --- [verve_assignment] [http-nio-8080-exec-8] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'id' for method parameter type int is not present]
+2024-11-07T13:23:41.158+05:30  INFO 62098 --- [verve_assignment] [scheduling-1] c.v.v.scheduler.RequestScheduler         : Unique request count in the last minute: 1
+2024-11-07T13:24:41.158+05:30  INFO 62098 --- [verve_assignment] [scheduling-1] c.v.v.scheduler.RequestScheduler         : Unique request count in the last minute: 0
+2024-11-07T13:25:41.156+05:30  INFO 62098 --- [verve_assignment] [scheduling-1] c.v.v.scheduler.RequestScheduler         : Unique request count in the last minute: 0
+2024-11-07T13:26:41.159+05:30  INFO 62098 --- [verve_assignment] [scheduling-1] c.v.v.scheduler.RequestScheduler         : Unique request count in the last minute: 0
+2024-11-07T13:27:41.157+05:30  INFO 62098 --- [verve_assignment] [scheduling-1] c.v.v.scheduler.RequestScheduler         : Unique request count in the last minute: 0
+2024-11-07T13:28:41.160+05:30  INFO 62098 --- [verve_assignment] [scheduling-1] c.v.v.scheduler.RequestScheduler         : Unique request count in the last minute: 0
+2024-11-07T13:29:41.162+05:30  INFO 62098 --- [verve_assignment] [scheduling-1] c.v.v.scheduler.RequestScheduler         : Unique request count in the last minute: 0
+2024-11-07T13:30:41.163+05:30  INFO 62098 --- [verve_assignment] [scheduling-1] c.v.v.scheduler.RequestScheduler         : Unique request count in the last minute: 0
+2024-11-07T13:31:41.163+05:30  INFO 62098 --- [verve_assignment] [scheduling-1] c.v.v.scheduler.RequestScheduler         : Unique request count in the last minute: 0
+2024-11-07T13:32:41.162+05:30  INFO 62098 --- [verve_assignment] [scheduling-1] c.v.v.scheduler.RequestScheduler         : Unique request count in the last minute: 0
+2024-11-07T13:33:41.165+05:30  INFO 62098 --- [verve_assignment] [scheduling-1] c.v.v.scheduler.RequestScheduler         : Unique request count in the last minute: 0
